@@ -84,7 +84,7 @@ let g:tagbar_width=25
 "打开时自动获取焦点
 let g:tagbar_autofocus=1
 
-"
+let g:UltiSnipsExpandTrigger="<C-t>"
 "-------------coc.nvim推荐的配置--------------------
 " TextEdit might fail if hidden is not set.
 set hidden

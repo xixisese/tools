@@ -226,6 +226,7 @@ nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 
 " vim-plugin是插件管理工具
 call plug#begin()
+" ctags好伴侣，自动调用ctags生成tag，能够增量管理
 Plug 'ludovicchabant/vim-gutentags'
 
 " 安装强大的LSP客户端coc,用于自动补全，语法检查，定义跳转，支持各种语言
